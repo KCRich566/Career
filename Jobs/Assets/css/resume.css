@@ -69,7 +69,12 @@ body{
     box-shadow:0 14px 32px rgba(0,0,0,0.28);
 }
 
-
+.hero-contact {
+    display: grid;
+    grid-template-columns: 24px 80px 1fr;
+    gap: 8px;
+    align-items: center;
+}
 /* CARD */
 
 .section-card{
